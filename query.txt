@@ -1,0 +1,1 @@
+SELECT MAX(Institution.name) AS Institution_name, MAX(course.institutionid) AS course_name, COUNT(student.courseid) AS Number_of_students FROM student;
